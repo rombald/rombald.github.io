@@ -267,3 +267,39 @@ footer {
     color:#444;
   }
 }
+
+.social_icon {
+  background-size: 64px 64px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 64px;
+  width: 64px;
+  text-indent: -9999em;
+  display: inline-block;
+  margin: 5px;
+}
+
+.twitter {
+  background-image: url(../images/social_icons/twitter.png);
+  background-color: #00aced;
+}
+
+.facebook {
+  background-image: url(../images/social_icons/facebook.png);
+  background-color: #3b5998;
+}
+
+.xing {
+  background-image: url(../images/social_icons/xing.png);
+  background-color: #006567;
+}
+
+.linkedin {
+  background-image: url(../images/social_icons/linkedin.png);
+  background-color: #007fb1;
+}
+
+.github {
+  background-image: url(../images/social_icons/github.png);
+  background-color: #4183c4;
+}
