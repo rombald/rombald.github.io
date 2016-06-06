@@ -255,8 +255,16 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+.cv-link-mobile i {
+  padding-top: 30px;
+  padding-bottom: 7px;
+  font-size: 35px;
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+  body {
+    padding: 15px;
+  }
   .sidebar-wrapper {
     position: static;
     width: inherit;
@@ -272,8 +280,19 @@ p {
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+  .main-wrapper .section {
+    margin-bottom: 40px;
+  }
 }
 /* Small devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+  .cv-link-full {
+    display: none;
+  }
+  .cv-link-mobile {
+    display: block;
+  }
+}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .skillset .level-title {
@@ -288,6 +307,12 @@ p {
     float: left;
     position: relative;
     top: 1px;
+  }
+  .cv-link-full {
+    display: block;
+  }
+  .cv-link-mobile {
+    display: none;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
